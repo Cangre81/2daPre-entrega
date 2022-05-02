@@ -1,0 +1,300 @@
+@import url('https://fonts.googleapis.com/css2?family=Allerta&family=Amatic+SC&family=Gloria+Hallelujah&family=K2D:ital,wght@1,600&family=Orbitron:wght@600&family=Palette+Mosaic&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*INDEX, login*/
+
+main{
+    height: 95vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+section{
+    display: inline-block;
+    text-align: center;
+    flex-grow: 1;
+}
+
+.marca-index{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.marca-index .fa-folder-open{
+    font-size: 60px;
+    color: #69d0a3;
+}
+.h1-index{
+    margin-top: 10px;
+    font-family: 'K2D', sans-serif;
+    color: #69d0a3
+}
+.h2-index{
+    font-family: 'K2D', sans-serif; color: gray;
+}
+
+.texto-login{
+    font-size: small;
+    margin-bottom: 5px;
+}
+.fa-circle{
+    font-size: small;
+    padding: 10px;
+    text-align: center;
+}
+
+.caja-login{
+    width: 50%;
+    height: 200px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #eaeeec;
+}
+
+.section-login{
+    display: flex;
+    justify-content: flex-start;
+    padding-right: 30px;
+}
+.input-login{
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.boton-entrar{
+    margin-top: 5px;
+    background-color:#69d0a3;
+    color: white;
+    padding: 5px;
+    border: none;
+    
+}
+.boton-crear-cuenta{
+    margin-top: 25px;
+}
+
+.footer-index{
+    text-align: center;
+}
+.fa-instagram{
+    margin-right: 10px;
+    color: black;
+    font-size: x-large;
+    position: relative;
+    bottom: 2px;
+}
+
+.footer-index .fa-envelope{
+    color: black;
+    font-size: x-large;
+    position: relative;
+    bottom: 2px;
+}
+
+/*INICIO*/
+header{
+    padding: 10px;
+    padding-left: 20px;
+    background-color: #eaeeec;
+    background-size: cover;
+}
+section .fa-folder-open{
+    color: #69d0a3;
+    font-size:large;
+}
+section .h4-header{
+    font-family: 'K2D', sans-serif;
+    font-size: large;
+}
+.usuario-header{
+    position: relative;
+    left: 750%; 
+}
+.boton-salir{
+    position: relative;
+    left: 65%;
+}
+
+.footer-all{
+    padding: 10px;
+    padding-left: 20px;
+    background-color: #eaeeec;
+    background-size: cover;
+    text-align: center;
+}
+
+.footer-all .fa-envelope{
+    color: black;
+    font-size: x-large;
+    position: relative;
+    bottom: 2px;
+
+}
+.menu-nav{
+    display: block;
+    width: 100px;
+    height: 100px;
+    padding: 1px;   
+    background-color: #eaeeec;
+    text-align: left;
+    padding-left: 10px;
+}
+
+a{
+    text-decoration: none;
+}
+ul{
+    list-style:none;
+}
+
+.horarios{
+    background-color: #eaeeec;
+    width: 500px;
+    height: 400px;
+}
+
+.section-inicio{
+    display: flex;
+    flex-grow: 4;
+}
+
+.inicio-derecha{
+    margin-left: 20px;
+    width: 200px;
+}
+
+.notificaciones{
+    background-color: #eaeeec;
+    margin-bottom: 30px;
+    height: 230px;
+}
+
+.mis-docentes{
+    background-color: #eaeeec;
+}
+
+/*mi perfil*/
+
+.imagen-miperfil{
+    width: 100px;
+}
+.section-miperfil{
+    display: flex;
+    flex-grow: 4;
+}
+
+.h4-user{
+    color: gray;
+}
+
+.miperfil-foto{
+    width: 300px;
+    margin-top: 50px;
+}
+
+.div-miperfil{
+    background-color: #eaeeec;
+    width: 350px;
+    height: 400px;
+}
+
+.data-alumno{
+    margin-top: 20px;
+
+}
+.data-padres{
+    margin-top: 30px;
+}
+
+
+/*mensajes*/
+
+.section-mensajes .p-mensajes{
+    background-color: #eaeeec;
+    width: 700px;
+    height: 20px;
+ 
+}
+
+.mail{
+    background-color: #eaeeec;
+    width: 700px;
+    height: 400px;
+    margin-top: 20px;
+}
+
+.boton-escribir{
+    margin-bottom: 20px;
+}
+/*en linea*/
+.section-enlinea{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 10px;
+
+}
+
+.clases-enlinea{
+    background-color: #eaeeec;
+    width: 200px;
+    height: 150px;
+    padding: 40px 20px;
+    
+}
+
+.clases-enlinea-ausencia{
+    background-color: #eaeeec;
+    width: 200px;
+    height: 150px;
+    padding: 20px 20px;
+    
+}
+.boton-ir{
+    margin-top: 10px;
+    background-color:#69d0a3;
+    color: white;
+    padding: 5px 15px;
+    border: none;
+    
+}
+
+.clases-enlinea .fa-video{
+    font-size: x-large; 
+}
+
+.clases-enlinea .fa-cloud{
+    font-size: x-large; 
+}
+
+.clases-enlinea-ausencia .fa-folder{
+    font-size: x-large; 
+}
+
+.clases-enlinea .fa-folder-plus{
+    font-size: x-large; 
+}
+/*ayuda*/
+.section-ayuda{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 10px;
+
+}
+.ayuda{
+    background-color: #eaeeec;
+    width: 200px;
+    height: 200px;
+}
+
+.ayuda .fa-folder-open{
+    color: black;
+}
