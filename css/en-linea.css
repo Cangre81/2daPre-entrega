@@ -73,6 +73,9 @@ a{
     text-decoration: none;
     color: black;
 }
+nav a:hover{
+    color: #5ad296
+}
 ul{
     list-style:none;
 }
@@ -82,6 +85,10 @@ ul{
     grid-template-columns: repeat(2,1fr);
     gap: 10px;
 
+}
+.clases-enlinea:hover{
+    height: 100px;
+    color: gray
 }
 
 .clases-enlinea{
@@ -98,6 +105,10 @@ ul{
     height: 150px;
     padding: 20px 20px;
     
+}
+.clases-enlinea-ausencia:hover{
+    height: 100px;
+    color: gray
 }
 .boton-ir{
     margin-top: 10px;

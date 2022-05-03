@@ -21,8 +21,18 @@ div{
     display: flex;
     justify-content: center;
     flex-direction: column;
-    
+    animation: fadeInDown 1500ms ease-in-out;
 
+}
+@keyframes fadeInDown {
+    0% {
+        opacity: 0;
+        transform: translateY(-40px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
 }
 
 .marca-index .fa-folder-open{

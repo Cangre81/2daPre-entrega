@@ -86,6 +86,9 @@
     text-decoration: none;
     color: black;
 }
+nav a:hover{
+    color: #5ad296
+}
 ul{
     list-style:none;
 }
@@ -123,7 +126,20 @@ ul{
     font-style: italic; 
     color: red;
     margin-top: 10px;
+    animation: flash 5000ms ease-in-out;
+    animation-iteration-count: infinite;
+
+
 }
+@keyframes flash {
+    0%, 50%, 100% {
+       opacity: 1;
+    }
+    25%, 75% {
+       opacity: 0;
+    }
+ }
+
 
 
 .mis-docentes{

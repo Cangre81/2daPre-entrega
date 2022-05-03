@@ -73,6 +73,9 @@ a{
     text-decoration: none;
     color: black;
 }
+nav a:hover{
+    color: #5ad296
+}
 ul{
     list-style:none;
 }
