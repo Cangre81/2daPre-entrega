@@ -107,7 +107,7 @@ header{
     background-color: #eaeeec;
     background-size: cover;
 }
-section .fa-folder-open{
+.fa-folder-open{
     color: #69d0a3;
     font-size:large;
 }

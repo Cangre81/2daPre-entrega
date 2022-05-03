@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Allerta&family=Amatic+SC&family=Gloria+Hallelujah&family=K2D:ital,wght@1,600&family=Orbitron:wght@600&family=Palette+Mosaic&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+main{
+    height: 95vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+div{
+    display: inline-block;
+    text-align: center;
+    flex-grow: 1;
+}
+header{
+    padding: 10px;
+    padding-left: 20px;
+    background-color: #eaeeec;
+    background-size: cover;
+}
+.menu{
+    display: flex;
+    justify-content: center;
+    
+}
+.fa-folder-open{
+    color: #69d0a3;
+    font-size:large;
+}
+.h4-header{
+    font-family: 'K2D', sans-serif;
+    font-size: large;
+}
+.usuario-header{
+    position: relative;
+    left: 700%; 
+}
+.boton-salir{
+    position: relative;
+    left: 65%;
+}
+
+.footer-all{
+    padding: 10px;
+    padding-left: 20px;
+    background-color: #eaeeec;
+    background-size: cover;
+    text-align: center;
+}
+
+.footer-all .fa-envelope{
+    color: black;
+    font-size: x-large;
+    position: relative;
+    bottom: 2px;
+
+}
+.fa-instagram{
+    margin-right: 10px;
+    color: black;
+    font-size: x-large;
+    position: initial;
+    bottom: 2px;
+}
+.menu-nav{
+    display: block;
+    width: 100px;
+    height: 100px;
+    padding: 1px;   
+    background-color: #eaeeec;
+    text-align: left;
+    padding-left: 10px;
+}
+
+a{
+    text-decoration: none;
+}
+ul{
+    list-style:none;
+}
+
+.section-ayuda{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 10px;
+
+}
+.ayuda{
+    background-color: #eaeeec;
+    width: 200px;
+    height: 200px;
+}
+
+.ayuda .fa-folder-open{
+    color: black;
+    margin-top: 70px;
+}
+.question-ayuda{
+    margin-top: 35%;
+}
+.fa-comments{
+    margin-top: 35%;
+}
