@@ -20,11 +20,7 @@ header{
     background-color: #eaeeec;
     background-size: cover;
 }
-.menu{
-    display: flex;
-    justify-content: center;
-    
-}
+
 .fa-folder-open{
     color: #69d0a3;
     font-size:large;
@@ -67,7 +63,7 @@ header{
 .menu-nav{
     display: block;
     width: 100px;
-    height: 100px;
+    height: 650px;
     padding: 1px;   
     background-color: #eaeeec;
     text-align: left;
@@ -76,14 +72,15 @@ header{
 
 a{
     text-decoration: none;
+    color: black;
 }
 ul{
     list-style:none;
 }
 
 .section-ayuda{
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
+    display: flex;
+    justify-content: center;
     gap: 10px;
 
 }
@@ -91,15 +88,11 @@ ul{
     background-color: #eaeeec;
     width: 200px;
     height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .ayuda .fa-folder-open{
     color: black;
-    margin-top: 70px;
-}
-.question-ayuda{
-    margin-top: 35%;
-}
-.fa-comments{
-    margin-top: 35%;
-}

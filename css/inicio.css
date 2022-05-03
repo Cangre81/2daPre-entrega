@@ -72,17 +72,19 @@
 }
 .menu-nav{
     display: block;
-    width: 100px;
-    height: 100px;
+    width: 50%;
+    height: 670px;
     padding: 1px;   
     background-color: #eaeeec;
     text-align: left;
     padding-left: 10px;
     margin: 10px;
+    text-decoration: none;
 }
 
-a{
+.menu-nav a{
     text-decoration: none;
+    color: black;
 }
 ul{
     list-style:none;
@@ -112,7 +114,9 @@ ul{
 .notificaciones{
     background-color: #eaeeec;
     margin-bottom: 30px;
+    margin-top: 2px;
     height: 330px;
+
     
 }
 .notif-pendientes{
@@ -124,7 +128,8 @@ ul{
 
 .mis-docentes{
     background-color: #eaeeec;
-    height: 270px;
+    height: 320px;
+    font-size: small;
 }
 
 .inicio-footer .fa-instagram{

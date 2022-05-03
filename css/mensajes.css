@@ -62,7 +62,7 @@ header{
 .menu-nav{
     display: block;
     width: 100px;
-    height: 100px;
+    height: 650px;
     padding: 1px;   
     background-color: #eaeeec;
     text-align: left;
@@ -71,6 +71,7 @@ header{
 
 a{
     text-decoration: none;
+    color: black;
 }
 ul{
     list-style:none;
